@@ -76,13 +76,6 @@ function runTimer(){
     aud2.pause()
   }
 
-  if (hours==01 && minutes==02 && seconds==02){
-    aud3.play()
-  }
-
-  if (hours==01 && minutes==02 && seconds==10){
-    aud3.pause()
-  }
 
   if (hours == 3 && minutes==01 && seconds == 02){
     aud4.play()
@@ -108,38 +101,7 @@ function runTimer(){
     aud6.pause()
   }
 
-  if(hours == 01 && minutes == 02 && seconds == 02){
-    aud7.play()
-  }
-
-  if(hours == 01 && minutes == 02 && seconds == 10){
-    aud7.pause()
-  }
-
-  if(hours == 01 && minutes == 35 && seconds == 03){
-    aud8.play()
-  }
-
-  if(hours == 01 && minutes == 35 && seconds == 10){
-    aud8.pause()
-  }
-
-  if(hours == 5 && minutes == 02 && seconds == 02){
-    aud9.play()
-  }
-
-  if(hours == 5 && minutes == 02 && seconds == 10){
-    aud9.pause()
-  }
-
-  if(hours == 5 && minutes == 35 && seconds == 03){
-    aud10.play()
-  }
-
-  if(hours == 5 && minutes == 35 && seconds == 10){
-    aud10.pause()
-  }
-
+ 
 
 
   chrono.textContent = `${hours}:${minutes}:${seconds}`;
