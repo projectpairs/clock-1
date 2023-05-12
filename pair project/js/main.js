@@ -140,6 +140,8 @@ function runTimer(){
     aud10.pause()
   }
 
+
+
   chrono.textContent = `${hours}:${minutes}:${seconds}`;
 
   timeout = setTimeout(runTimer, 1000);
